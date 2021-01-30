@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F48DB0FF25C54F0C0063D554 /* TaskStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48DB0FE25C54F0C0063D554 /* TaskStore.swift */; };
 		F4F8781F25C1C81F0014DA03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F8781E25C1C81F0014DA03 /* AppDelegate.swift */; };
 		F4F8782125C1C81F0014DA03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F8782025C1C81F0014DA03 /* SceneDelegate.swift */; };
 		F4F8782325C1C81F0014DA03 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F8782225C1C81F0014DA03 /* ContentView.swift */; };
@@ -16,13 +17,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F4F8781B25C1C81E0014DA03 /* Flips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flips.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F48DB0FE25C54F0C0063D554 /* TaskStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskStore.swift; sourceTree = "<group>"; };
+		F49223DA25C5A38200FE8765 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		F49223DC25C5A3DE00FE8765 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ru; path = ru.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4F8781B25C1C81E0014DA03 /* Tasks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tasks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4F8781E25C1C81F0014DA03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4F8782025C1C81F0014DA03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F4F8782225C1C81F0014DA03 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F4F8782225C1C81F0014DA03 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; tabWidth = 4; };
 		F4F8782425C1C81F0014DA03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4F8782725C1C81F0014DA03 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		F4F8782A25C1C81F0014DA03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4F8782C25C1C81F0014DA03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -40,7 +43,7 @@
 		F4F8781225C1C81E0014DA03 = {
 			isa = PBXGroup;
 			children = (
-				F4F8781D25C1C81E0014DA03 /* Flips */,
+				F4F8781D25C1C81E0014DA03 /* Tasks */,
 				F4F8781C25C1C81E0014DA03 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,23 +51,24 @@
 		F4F8781C25C1C81E0014DA03 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F4F8781B25C1C81E0014DA03 /* Flips.app */,
+				F4F8781B25C1C81E0014DA03 /* Tasks.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F4F8781D25C1C81E0014DA03 /* Flips */ = {
+		F4F8781D25C1C81E0014DA03 /* Tasks */ = {
 			isa = PBXGroup;
 			children = (
 				F4F8781E25C1C81F0014DA03 /* AppDelegate.swift */,
 				F4F8782025C1C81F0014DA03 /* SceneDelegate.swift */,
 				F4F8782225C1C81F0014DA03 /* ContentView.swift */,
+				F48DB0FE25C54F0C0063D554 /* TaskStore.swift */,
 				F4F8782425C1C81F0014DA03 /* Assets.xcassets */,
 				F4F8782925C1C81F0014DA03 /* LaunchScreen.storyboard */,
 				F4F8782C25C1C81F0014DA03 /* Info.plist */,
 				F4F8782625C1C81F0014DA03 /* Preview Content */,
 			);
-			path = Flips;
+			path = Tasks;
 			sourceTree = "<group>";
 		};
 		F4F8782625C1C81F0014DA03 /* Preview Content */ = {
@@ -78,9 +82,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F4F8781A25C1C81E0014DA03 /* Flips */ = {
+		F4F8781A25C1C81E0014DA03 /* Tasks */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F4F8782F25C1C81F0014DA03 /* Build configuration list for PBXNativeTarget "Flips" */;
+			buildConfigurationList = F4F8782F25C1C81F0014DA03 /* Build configuration list for PBXNativeTarget "Tasks" */;
 			buildPhases = (
 				F4F8781725C1C81E0014DA03 /* Sources */,
 				F4F8781825C1C81E0014DA03 /* Frameworks */,
@@ -90,9 +94,9 @@
 			);
 			dependencies = (
 			);
-			name = Flips;
+			name = Tasks;
 			productName = Flips;
-			productReference = F4F8781B25C1C81E0014DA03 /* Flips.app */;
+			productReference = F4F8781B25C1C81E0014DA03 /* Tasks.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -109,12 +113,13 @@
 					};
 				};
 			};
-			buildConfigurationList = F4F8781625C1C81E0014DA03 /* Build configuration list for PBXProject "Flips" */;
+			buildConfigurationList = F4F8781625C1C81E0014DA03 /* Build configuration list for PBXProject "Tasks" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				ru,
 				Base,
 			);
 			mainGroup = F4F8781225C1C81E0014DA03;
@@ -122,7 +127,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F4F8781A25C1C81E0014DA03 /* Flips */,
+				F4F8781A25C1C81E0014DA03 /* Tasks */,
 			);
 		};
 /* End PBXProject section */
@@ -146,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4F8781F25C1C81F0014DA03 /* AppDelegate.swift in Sources */,
+				F48DB0FF25C54F0C0063D554 /* TaskStore.swift in Sources */,
 				F4F8782125C1C81F0014DA03 /* SceneDelegate.swift in Sources */,
 				F4F8782325C1C81F0014DA03 /* ContentView.swift in Sources */,
 			);
@@ -157,7 +163,8 @@
 		F4F8782925C1C81F0014DA03 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F4F8782A25C1C81F0014DA03 /* Base */,
+				F49223DA25C5A38200FE8765 /* ru */,
+				F49223DC25C5A3DE00FE8765 /* ru */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -169,6 +176,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -230,6 +238,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -286,16 +295,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Flips/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Tasks/Preview Content\"";
+				DEVELOPMENT_TEAM = 3B336RAGHX;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Flips/Info.plist;
+				INFOPLIST_FILE = Tasks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = LLI.Flips;
+				PRODUCT_BUNDLE_IDENTIFIER = LLI.Tasks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -306,16 +318,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Flips/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Tasks/Preview Content\"";
+				DEVELOPMENT_TEAM = 3B336RAGHX;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Flips/Info.plist;
+				INFOPLIST_FILE = Tasks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = LLI.Flips;
+				PRODUCT_BUNDLE_IDENTIFIER = LLI.Tasks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -324,7 +339,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F4F8781625C1C81E0014DA03 /* Build configuration list for PBXProject "Flips" */ = {
+		F4F8781625C1C81E0014DA03 /* Build configuration list for PBXProject "Tasks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F4F8782D25C1C81F0014DA03 /* Debug */,
@@ -333,7 +348,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F4F8782F25C1C81F0014DA03 /* Build configuration list for PBXNativeTarget "Flips" */ = {
+		F4F8782F25C1C81F0014DA03 /* Build configuration list for PBXNativeTarget "Tasks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F4F8783025C1C81F0014DA03 /* Debug */,
